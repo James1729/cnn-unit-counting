@@ -1,0 +1,9 @@
+
+# jupyter notebooks 
+**/__.ipynb_checkpoints__/
+.DS_Store
+**/__pycache__/
+
+#  don't push run outputs
+output/*
+results/*

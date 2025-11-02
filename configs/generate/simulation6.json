@@ -1,0 +1,29 @@
+{
+    "num_samples": 1000000,
+    "target_units": [
+        {
+            "faction": "soviet", 
+            "colour": "yellow", 
+            "unit": "heavy_tank"
+        }
+    ],
+    "noise_units": [
+        {
+            "faction": "soviet", 
+            "colour": "yellow", 
+            "unit": "telsa_tank"
+        }
+    ],
+    "backgrounds": [
+        {
+            "path": "raw_stock_images/processed/backgrounds/simulation3/green.png",
+            "max_num_targets_per_sample": 3,
+            "max_num_noise_per_sample": 1
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/simulation3/kotg_4.png",
+            "max_num_targets_per_sample": 20,
+            "max_num_noise_per_sample": 5
+        }
+    ]
+}

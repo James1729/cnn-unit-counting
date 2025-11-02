@@ -1,0 +1,17 @@
+{
+    "num_samples": 10,
+    "target_units": [
+        {
+            "faction": "soviet", 
+            "colour": "yellow", 
+            "unit": "heavy_tank"
+        }
+    ],
+    "backgrounds": [
+        {
+            "path": "raw_stock_images/processed/backgrounds/simulation1/green_gems.png",
+            "max_num_targets_per_sample": 3,
+            "max_num_noise_per_sample":2
+        }
+    ]
+}

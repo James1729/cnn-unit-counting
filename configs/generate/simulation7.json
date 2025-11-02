@@ -1,0 +1,74 @@
+{
+    "num_samples": 1000000,
+    "target_units": [
+        {
+            "faction": "soviet", 
+            "colour": "yellow", 
+            "unit": "heavy_tank"
+        }
+    ],
+    "noise_units": [
+        {
+            "faction": "soviet", 
+            "colour": "yellow", 
+            "unit": "telsa_tank"
+        }
+    ],
+    "backgrounds": [
+        {
+            "path": "raw_stock_images/processed/backgrounds/green.png",
+            "max_num_targets_per_sample": 3,
+            "max_num_noise_per_sample": 1
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/green_ore.png",
+            "max_num_targets_per_sample": 16,
+            "max_num_noise_per_sample": 1
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/green_gems.png",
+            "max_num_targets_per_sample": 4,
+            "max_num_noise_per_sample": 1
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/kotg_1.png",
+            "max_num_targets_per_sample": 3,
+            "max_num_noise_per_sample": 5
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/kotg_2.png",
+            "max_num_targets_per_sample": 5,
+            "max_num_noise_per_sample": 0
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/kotg_3.png",
+            "max_num_targets_per_sample": 13,
+            "max_num_noise_per_sample": 5
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/kotg_4.png",
+            "max_num_targets_per_sample": 9,
+            "max_num_noise_per_sample": 1
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/sg_1.png",
+            "max_num_targets_per_sample": 6,
+            "max_num_noise_per_sample": 5
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/sg_2.png",
+            "max_num_targets_per_sample": 5,
+            "max_num_noise_per_sample": 0
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/sg_3.png",
+            "max_num_targets_per_sample": 13,
+            "max_num_noise_per_sample": 5
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/sg_4.png",
+            "max_num_targets_per_sample": 3,
+            "max_num_noise_per_sample": 1
+        }
+    ]
+}

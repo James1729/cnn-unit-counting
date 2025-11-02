@@ -1,0 +1,34 @@
+{
+    "num_samples": 100000,
+    "target_units": [
+        {
+            "faction": "soviet", 
+            "colour": "yellow", 
+            "unit": "heavy_tank"
+        }
+    ],
+    "noise_units": [
+        {
+            "faction": "soviet", 
+            "colour": "yellow", 
+            "unit": "telsa_tank"
+        }
+    ],
+    "backgrounds": [
+        {
+            "path": "raw_stock_images/processed/backgrounds/simulation1/green_gems.png",
+            "max_num_targets_per_sample": 3,
+            "max_num_noise_per_sample":2
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/simulation1/green_ore.png",
+            "max_num_targets_per_sample": 3,
+            "max_num_noise_per_sample":2
+        },
+        {
+            "path": "raw_stock_images/processed/backgrounds/simulation1/green.png",
+            "max_num_targets_per_sample": 3,
+            "max_num_noise_per_sample":2
+        }
+    ]
+}

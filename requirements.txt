@@ -1,0 +1,7 @@
+tensorflow-macos
+pandas
+joblib
+Pillow
+tqdm
+matplotlib
+scikit-learn

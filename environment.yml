@@ -1,0 +1,8 @@
+name: ra_experiments
+channels:
+  - defaults
+dependencies:
+  - numpy==1.26.4
+  - python=3.10.13
+  - notebook
+prefix: /Users/ejpitkin-levy/opt/anaconda3/envs/ra_experiments
